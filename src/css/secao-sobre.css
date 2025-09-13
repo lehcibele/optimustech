@@ -1,0 +1,115 @@
+.main {
+    max-width: 1440px;
+    width: 100%;
+}
+
+.subtitulo {
+    color: var(--vermelho);
+    text-align: center;
+    font-family: var(--fonte);
+    font-weight: 600;
+    font-style: normal;
+    line-height: 24px;
+    margin-top: 96px;
+}
+
+.titulo-sobre {
+    font-family: var(--fonte);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: -0.02em;
+    color: var(--cor-titulo-secoes);
+    text-align: center;
+    margin: 24px auto;
+}
+
+.texto-sobre {
+    text-align: center;
+    color: var(--cinza);
+    font-family: var(--fonte);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    width: 55%;
+    margin: 0 auto 96px auto;
+}
+
+.container-metricas-sobre {
+    display: flex;
+    gap: 2rem;
+    width: 95%;
+    margin: 0px auto;
+}
+
+.metrica-sobre {
+    flex: 1;
+    height: 230px;
+}
+
+.metrica-valor {
+    font-family: var(--fonte);
+    font-weight: 600;
+    font-style: normal;
+    font-size: 60px;
+    line-height: 72px;
+    letter-spacing: -0.02em;
+    color: var(--vermelho);
+}
+
+.metrica-titulo {
+    color: var(--cor-titulo-secoes);
+    font-family: var(--fonte);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 12px;
+    margin-bottom: 8px;
+}
+
+.metrica-texto {
+    font-family: var(--fonte);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--cinza);
+}
+
+/* Responsividade */
+@media (max-width: 830px) {
+    .texto-sobre {
+        width: 70%;
+    }
+
+    .container-metricas-sobre {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .metrica-sobre {
+        flex: 1 1 200px;
+        max-width: 250px;  
+    }
+}
+
+@media (max-width: 455px) {
+    .titulo-sobre {
+        font-size: 44px;
+    }
+
+    .texto-sobre {
+        width: 85%;
+    }
+
+    .metrica-sobre {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}

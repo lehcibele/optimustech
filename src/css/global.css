@@ -5,6 +5,11 @@
     --vermelho: #8E2424;
     --cinza: #667085;
     --cinza-escuro: #3A404E;
+    --cor-titulo-secoes: #101828;
     --fonte: "Inter", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth; /* ativa scroll suave */
 }
 
