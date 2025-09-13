@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    --branco: #FFFFFF;
+    --vermelho: #8E2424;
+    --cinza: #667085;
+    --cinza-escuro: #3A404E;
+    --fonte: "Inter", sans-serif;
+}
+
